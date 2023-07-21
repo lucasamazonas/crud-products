@@ -1,0 +1,21 @@
+{
+    "name": "lucasamazonas/back",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": ["app/Helper/functions.php"]
+    },
+    "authors": [
+        {
+            "name": "Lucas Amazonas",
+            "email": "lucassilvaamazonas@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.11.0",
+        "doctrine/dbal": "^3.2",
+        "symfony/yaml": "^5.4",
+        "symfony/cache": "^5.4"
+    }
+}
